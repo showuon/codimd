@@ -15,7 +15,7 @@
   "license": "AGPL-3.0",
   "main": "app.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js --progress --colors --bail",
+    "build": "webpack --config webpack.dev.js --progress --colors --bail",
     "dev": "webpack --config webpack.dev.js --progress --colors --watch",
     "doctoc": "doctoc --title='# Table of Contents' README.md",
     "eslint": "eslint lib public test app.js",
